@@ -1,0 +1,39 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+
+  "cSpell.words": ["Akka", "netstandard", "nunit", "nupkg", "testkit"],
+
+  "xml.format.emptyElements": "collapse",
+  "xml.format.enforceQuoteStyle": "preferred",
+  "xml.format.maxLineWidth": 0,
+  "xml.format.preserveSpace": [
+    "xsl:text",
+    "xsl:comment",
+    "xsl:processing-instruction",
+    "literallayout",
+    "programlisting",
+    "screen",
+    "synopsis",
+    "pre",
+    "xd:pre",
+    "PackageReleaseNotes"
+  ],
+  "xml.preferences.quoteStyle": "double",
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml",
+    "files.insertFinalNewline": true
+  }
+}
