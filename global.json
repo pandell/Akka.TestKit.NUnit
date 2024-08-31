@@ -1,0 +1,7 @@
+{
+  "sdk": {
+    // We are making patch version sticky because of bad experience with JetBrains R# Analyzer, see https://youtrack.jetbrains.com/issue/RSRP-495984.
+    "version": "8.0.400",
+    "rollForward": "latestPatch"
+  }
+}
