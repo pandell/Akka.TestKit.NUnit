@@ -5,6 +5,7 @@
     frameworks not supported by "Akka.TestKit". -->
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <IsPackable>true</IsPackable>
+    <AssemblyName>Pandell.Akka.TestKit.NUnit3</AssemblyName><!-- Publish with Pandell-prefixed name -->
   </PropertyGroup>
 
   <ItemGroup>
