@@ -1,12 +1,10 @@
-#### 1.5.30 October 2024 ####
-- Bump `Akka.TestKit` to [1.5.30](https://github.com/akkadotnet/akka.net/releases/tag/1.5.30)
-
-#### 1.5.28 September 2024 ####
-- Bump `Akka.TestKit` to [1.5.28](https://github.com/akkadotnet/akka.net/releases/tag/1.5.28)
+#### 1.5.32 December 20th 2024 ####
+- Bump `Akka.TestKit` to [1.5.32](https://github.com/akkadotnet/akka.net/releases/tag/1.5.32)
 - Bump `NUnit3TestAdapter` to [4.6.0](https://github.com/nunit/nunit3-vs-adapter/releases/tag/V4.6.0)
 - Add `NUnit.Analyzers` version [4.3.0](https://github.com/nunit/nunit.analyzers/releases/tag/4.3.0) to ensure we follow NUnit best practices.
-- Add support for [NUnit 4.2.2](https://github.com/nunit/nunit/releases/tag/4.2.2) in addition to NUnit 3.
-   `Akka.TestKit.NUnit` targets NUnit 4, while `Akka.TestKit.NUnit3` targets NUnit 3.
+- Add support for [NUnit 4.2.2](https://github.com/nunit/nunit/releases/tag/4.2.2)
+
+`Akka.TestKit.NUnit3` package is now deprecated, `Akka.TestKit.NUnit` will support NUnit 4 from now on.
 
 #### 1.5.24 June 11 2024 ####
 - Bump Akka.TestKit to [1.5.24](https://github.com/akkadotnet/akka.net/releases/tag/1.5.24) ([#124](https://github.com/akkadotnet/Akka.TestKit.NUnit/pull/124))
