@@ -3,6 +3,7 @@
     <!-- Matches frameworks targeted by NUnit 4.x.x. -->
     <TargetFrameworks>net6.0;net462</TargetFrameworks>
     <IsPackable>true</IsPackable>
+    <AssemblyName>Pandell.Akka.TestKit.NUnit</AssemblyName><!-- Publish with Pandell-prefixed name -->
   </PropertyGroup>
 
   <ItemGroup>
